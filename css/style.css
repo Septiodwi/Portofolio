@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-
-
 body {
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,10 +15,11 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(59, 59, 59);
-
 }
 
+
 /* Open Home */
+
 .wrapper {
     width: 100%;
     height: auto;
@@ -32,8 +31,6 @@ nav {
     color: white;
     background-color: black;
     opacity: 0.7;
-
-
 }
 
 #top-nav {
@@ -54,17 +51,14 @@ nav {
 }
 
 @media (min-width: 576px) {
-
     .navbar-brand {
         font-size: 20px;
     }
 }
 
-
 li {
     display: inline-block;
     margin-left: 40px;
-
 }
 
 li a {
@@ -72,7 +66,6 @@ li a {
     text-decoration: none;
     color: white;
     font-weight: lighter;
-
 }
 
 a:hover {
@@ -94,11 +87,9 @@ a:hover {
     transition: width 3s.;
 }
 
-
 .item {
     background: black;
     height: 280px;
-
 }
 
 @media (min-width: 1200px) {
@@ -107,9 +98,6 @@ a:hover {
         display: inline-block;
     }
 }
-
-
-
 
 .container2 {
     width: 100%;
@@ -120,7 +108,6 @@ a:hover {
     width: 100%;
     height: auto;
     opacity: 0.4;
-
 }
 
 @media (min-width: 576px) {
@@ -138,7 +125,6 @@ a:hover {
     color: white;
     margin-top: -40%;
     margin-left: 20%;
-
 }
 
 @media (min-width: 576px) {
@@ -147,9 +133,7 @@ a:hover {
         margin-top: -48%;
         margin-left: 32%;
     }
-
 }
-
 
 .text-arabic-arti {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -160,16 +144,13 @@ a:hover {
     color: white;
 }
 
-
 @media (min-width: 576px) {
     .text-arabic-arti {
         font-size: 15px;
         margin-top: 1%;
         margin-left: 5%;
     }
-
 }
-
 
 .text-arabic::after {
     content: "";
@@ -211,10 +192,9 @@ a:hover {
 @media (min-width: 576px) {
     .text-arabic-2 {
         font-size: 50px;
-        margin-top: -48%;
-        margin-left: 42%;
+        margin-top: -45%;
+        margin-left: 44%;
     }
-
 }
 
 .text-arabic-arti-2 {
@@ -233,7 +213,6 @@ a:hover {
         margin-top: 1%;
         margin-left: 5%;
     }
-
 }
 
 .text-arabic-2::after {
@@ -258,25 +237,22 @@ a:hover {
     transition-delay: 0.1s;
 }
 
-
 .text-arabic-3 {
     overflow: hidden;
     opacity: unset;
     font-size: 20px;
     color: white;
-    margin-top: -38%;
+    margin-top: -40 %;
     margin-left: 30%;
 }
 
 @media (min-width: 576px) {
     .text-arabic-3 {
         font-size: 50px;
-        margin-top: -48%;
+        margin-top: -55%;
         margin-left: 38%;
     }
-
 }
-
 
 .text-arabic-arti-3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -293,7 +269,6 @@ a:hover {
         margin-top: 1%;
         margin-left: 0;
     }
-
 }
 
 .text-custom-arabic {
@@ -328,10 +303,16 @@ a:hover {
     transition-delay: 0.1s;
 }
 
+.text-custom-4 {
+    margin-top: -43%;
+}
+
 
 /* close home */
 
+
 /* open about */
+
 .btn-cv {
     margin-top: 20px;
     padding-top: 15px;
@@ -373,7 +354,6 @@ a:hover {
     border: 2px solid white;
     padding: 20px;
     overflow: hidden;
-
 }
 
 @media (min-width: 576px) {
@@ -417,7 +397,6 @@ a:hover {
     color: white;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 @media (min-width: 576px) {
@@ -433,7 +412,6 @@ a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
     line-height: 23px;
-
 }
 
 @media (min-width: 576px) {
@@ -462,8 +440,6 @@ a:hover {
     }
 }
 
-
-
 .rectangle {
     width: 100%;
     position: relative;
@@ -472,8 +448,6 @@ a:hover {
 
 .img-custom {
     width: 100%;
-
-
 }
 
 .img-custom:hover {
@@ -511,8 +485,7 @@ a:hover {
     background-color: black;
     display: inline-block;
     border-radius: 10px;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, .15),
-        -6px -6px 12px rgba(255, 255, 255, .1);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, .15), -6px -6px 12px rgba(255, 255, 255, .1);
     overflow: hidden;
     font-size: 28px;
     transition: .3s linear;
@@ -593,7 +566,6 @@ a:hover i::before {
     background-color: rgb(15, 15, 15);
     color: white;
     width: 19rem;
-
     /* box-shadow: 2px 2px 15px 2px #313131; */
 }
 
@@ -603,7 +575,6 @@ a:hover i::before {
         width: 23rem;
     }
 }
-
 
 .card-skill:hover {
     transition: 1s ease;
@@ -646,19 +617,128 @@ a:hover i::before {
     color: orangered;
 }
 
+
 /* close section skill */
 
 
+/* open section experience */
+
+.box-experience {
+    width: 320px;
+    height: 220px;
+    background: black;
+    box-shadow: 2px 2px 15px 2px #313131;
+    border-radius: 10px;
+    margin-left: 0%;
+    padding-left: 15%;
+    padding-top: 7%;
+}
+
+@media (min-width: 576px) {
+    .box-experience {
+        margin-left: 26%;
+        width: 532px;
+        padding-top: 2%;
+    }
+}
+
+.box-custom {
+    margin-top: 3%;
+}
+
+.icon-building {
+    margin-left: 35%;
+    font-size: 30px;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .icon-building {
+        margin-left: 23%;
+    }
+}
+
+.icon-building:hover {
+    transition: 1s ease;
+    color: orangered;
+}
+
+.logo-uasfot {
+    margin-top: 3%;
+    margin-left: 13%;
+}
+
+@media (min-width: 576px) {
+    .logo-uasfot {
+        margin-left: 5%;
+    }
+}
+
+.logo-custom {
+    margin-left: 22%;
+}
+
+@media (min-width: 576px) {
+    .logo-custom {
+        margin-left: 13%;
+    }
+}
+
+.text-experience {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #FA630E;
+    margin-left: 25%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+@media (min-width: 576px) {
+    .text-experience {
+        margin-left: 15%;
+    }
+}
+
+.text-experience-custom {
+    margin-left: -10%;
+    margin-top: 7%;
+}
+
+.text-address {
+    width: 250px;
+    height: 39px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-left: -5%;
+}
+
+@media (min-width: 576px) {
+    .text-address {
+        margin-left: -20%;
+        width: 345px;
+        font-size: 11px;
+    }
+}
+
+
+/* close section experience */
+
 
 /* open section portofolio */
-
 
 .item-portofolio {
     padding-top: 20px;
     padding-left: 20px;
     height: 400px;
     margin-left: -20px;
-
 }
 
 .card-portofolio {
@@ -717,14 +797,11 @@ h3:hover {
     width: 100%;
     height: 0;
     transform: translate(-50%, -50%) rotate(45deg);
-
 }
 
 .card-custom:hover::before {
     height: 360%;
 }
-
-
 
 @media (min-width: 576px) {
     .card-custom {
@@ -741,7 +818,9 @@ h3:hover {
     text-transform: uppercase;
 }
 
+
 /* close section custom  */
+
 
 /* open section contac */
 
@@ -756,7 +835,6 @@ h3:hover {
     border: 2px solid white;
     padding: 20px;
     overflow: hidden;
-
 }
 
 @media (min-width: 576px) {
@@ -772,15 +850,12 @@ h3:hover {
     margin-top: 30px;
     width: 100%;
     height: 300px;
-
 }
 
 @media (min-width: 576px) {
     .maps {
         width: 100%;
         height: 400px;
-
-
     }
 }
 
@@ -812,7 +887,6 @@ h3:hover {
     padding: 0 10px;
     overflow: hidden;
 }
-
 
 .contact-form-text {
     display: block;
@@ -873,7 +947,6 @@ textarea.contact-form-text {
 /* close sectiob contac */
 
 
-
 /* open section footer */
 
 .card-footer {
@@ -882,8 +955,6 @@ textarea.contact-form-text {
     margin-left: 0%;
     box-shadow: inset 0 0 2.5px 2px rgba(54, 53, 53, 0.507)
 }
-
-
 
 .text-footer {
     font-size: 20px;
@@ -922,7 +993,6 @@ textarea.contact-form-text {
     height: 40px;
     margin-left: -10px;
     padding-bottom: 10px;
-
 }
 
 @media (min-width: 576px) {
@@ -945,5 +1015,6 @@ textarea.contact-form-text {
         margin-top: 5%;
     }
 }
+
 
 /* close section footer  */
