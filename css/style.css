@@ -242,7 +242,7 @@ a:hover {
     opacity: unset;
     font-size: 20px;
     color: white;
-    margin-top: -40 %;
+    margin-top: -45%;
     margin-left: 30%;
 }
 
@@ -634,6 +634,11 @@ a:hover i::before {
     padding-top: 7%;
 }
 
+.box-experience:hover {
+    transition: 1s ease;
+    background-color: rgb(29, 29, 29);
+}
+
 @media (min-width: 576px) {
     .box-experience {
         margin-left: 26%;
@@ -703,8 +708,9 @@ a:hover i::before {
 }
 
 .text-experience-custom {
-    margin-left: -10%;
+    margin-left: -3%;
     margin-top: 7%;
+    font-size: 14px;
 }
 
 .text-address {
