@@ -632,6 +632,7 @@ a:hover i::before {
     margin-left: 0%;
     padding-left: 15%;
     padding-top: 7%;
+    margin-bottom: 7%;
 }
 
 .box-experience:hover {
@@ -643,6 +644,7 @@ a:hover i::before {
     .box-experience {
         margin-left: 26%;
         width: 532px;
+        margin-bottom: 0%;
         padding-top: 2%;
     }
 }
