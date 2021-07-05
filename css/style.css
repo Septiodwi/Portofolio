@@ -84,7 +84,7 @@ a:hover {
 
 .nav-color:hover::after {
     width: 100%;
-    transition: width 3s.;
+    transition: width .3s;
 }
 
 .item {
@@ -434,7 +434,7 @@ a:hover {
 
 @media (min-width: 576px) {
     .text-about-4::after {
-        top: 25%;
+        top: 23%;
         left: 15px;
         width: 40px;
     }
@@ -675,9 +675,22 @@ a:hover i::before {
     margin-left: 13%;
 }
 
+.logo-rimba{
+    width: 50px;
+    margin-top:20px ;
+    margin-left: 30%;
+}
+
+@media (min-width: 576px){
+    .logo-rimba{
+        margin-top:20px ;
+        margin-left: 18%;
+    }
+}
+
 @media (min-width: 576px) {
     .logo-uasfot {
-        margin-left: 5%;
+        margin-left: 9%;
     }
 }
 
@@ -698,23 +711,30 @@ a:hover i::before {
     line-height: 16px;
     letter-spacing: 0.01em;
     color: #FA630E;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-bottom: 3%;
     margin-top: 3%;
 }
 
 @media (min-width: 576px) {
     .text-experience {
-        margin-left: 15%;
+        margin-left: 8%;
     }
 }
 
 .text-experience-custom {
-    margin-left: -3%;
+    margin-left: 15%;
     margin-top: 7%;
-    font-size: 14px;
+    font-size: 18px;
 }
 
+@media (min-width: 576px){
+    .text-experience-custom {
+        margin-left: 8%;
+        
+        font-size: 18px;
+    }
+}
 .text-address {
     width: 250px;
     height: 39px;
@@ -952,6 +972,65 @@ textarea.contact-form-text {
 }
 
 
+.button-whatsapp{
+    width: 230px;
+    height: 60px;
+    border: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    background: #AEFEBF;
+    border-radius: 40px;
+}
+
+
+@media (min-width: 576px) {
+    .button-whatsapp{
+        margin-left: 39%;
+        margin-bottom: 5%;
+      
+    }
+}
+.button-whatsapp:hover{
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    background-color: #166114;
+}
+
+.text-contact{
+    margin-top: -16%;
+    margin-left: 28%;
+    font-size: 18px;
+    line-height: 27px;
+    color: #398436;
+}
+
+.profile-contact{
+    margin-left: 24%;
+    margin-bottom: 1%;
+    cursor: none;
+}
+
+@media (min-width: 576px){
+    .profile-contact{
+        margin-left: 43%;
+
+    }
+}
+.text-name-contact{
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .text-name-contact{
+        font-size: 32px;
+    }
+}
+
+.text-job{
+    font-size: 17px;
+}
 /* close sectiob contac */
 
 
